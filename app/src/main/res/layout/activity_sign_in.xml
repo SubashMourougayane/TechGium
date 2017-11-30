@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.msuba.techgium.Onboarding.SignIn">
+
+    <EditText
+        android:id="@+id/Uname"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/pass"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="26dp"
+        android:hint="User Name"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="165dp" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/regbut"
+        android:layout_alignLeft="@+id/Uname"
+        android:layout_alignStart="@+id/Uname"
+        android:layout_marginBottom="99dp"
+        android:hint="password"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="232dp" />
+
+    <Button
+        android:id="@+id/logbut"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/regbut"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/regbut"
+        android:layout_marginBottom="44dp"
+        android:text="LOGIN"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="142dp"
+        tools:layout_editor_absoluteY="326dp" />
+
+    <Button
+        android:id="@+id/regbut"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/logbut"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="39dp"
+        android:text="SIGN up"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="142dp"
+        tools:layout_editor_absoluteY="407dp" />
+
+
+</RelativeLayout>

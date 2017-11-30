@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.msuba.techgium.Onboarding.SignUp">
+
+    <EditText
+        android:id="@+id/Uname"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/pass"
+        android:layout_alignLeft="@+id/mail"
+        android:layout_alignStart="@+id/mail"
+        android:layout_marginBottom="57dp"
+        android:hint="User Name" />
+    <EditText
+        android:id="@+id/mail"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="195dp"
+        android:hint="Email"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="151dp" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/mail"
+        android:layout_alignStart="@+id/mail"
+        android:layout_below="@+id/mail"
+        android:layout_marginTop="19dp"
+        android:hint="Password"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="221dp" />
+
+    <Button
+        android:id="@+id/regbut"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pass"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:text="REGISTER"
+        tools:layout_editor_absoluteX="142dp"
+        tools:layout_editor_absoluteY="347dp" />
+</RelativeLayout>

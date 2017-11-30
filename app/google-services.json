@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1045466216112",
+    "firebase_url": "https://techgiu-f18ca.firebaseio.com",
+    "project_id": "techgiu-f18ca",
+    "storage_bucket": "techgiu-f18ca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1045466216112:android:a7c1ad2da5ac4a22",
+        "android_client_info": {
+          "package_name": "com.example.msuba.techgium"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1045466216112-8pvrhc81vr6g1f2pp7vok4nfl7ivfmae.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMAdJ1oSIImll6ncOqQLlklGZO_tU5GEI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
